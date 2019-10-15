@@ -62,7 +62,6 @@ public class WDStepsDefs {
         getDriver().findElement(By.xpath("//span[contains(text(),'Save')]")).click();
 
     }
-                    // Homework part
     @And("I fill out required fields")
     public void iFillOutRequiredFields() throws InterruptedException {
         String username="ON";
@@ -94,6 +93,7 @@ public class WDStepsDefs {
 
     }
 
+                        // Homework part
     @And("I fill out not required fields")
     public void iFillOutNotRequiredFields() throws InterruptedException {
         //select country
